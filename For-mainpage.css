@@ -103,36 +103,41 @@ main #bg-1{
 .presscon{
     width: 20%;
     border-radius: 5%;
+    transition: 0.5s;
+}
+.presscon:hover{
+    width: 20%;
+    scale: 1.1;
+    border-radius: 5%;
 }
 #slider{
-    opacity: 0.9;
+    opacity: 3;
     margin-top:-350px ;
 }
-p{
-    margin-top: 90px;
-    position: absolute;
-    color:white;
-}
+
+
+
 @media (max-width:600px) {
 
     #logo{
         display: inline-block;
         margin-top: 5px;
         margin-left: -30px;
-        width: 260px;
+        width: 220px;
     }
     .link-cont{
         display: none;
         z-index: 10;
-        top: 0;
+        top: -6px;
         right:0;
         margin-inline-end: auto;
         text-align: center;
         align-items: flex-start;
         flex-direction:column;
         background-color:#ccccdbb7;
-        height:350px;
-        width: 30%;
+        height:300px;
+        width: 100%;
+        margin-bottom: -370px;
     }
     .others{
         text-align: center;
@@ -180,7 +185,7 @@ p{
     }
     .closesidebutton{
         position: absolute;
-        right: 60px;
+        right: 47%;
         margin-top: 30px;
         display: inline-block;
     }
