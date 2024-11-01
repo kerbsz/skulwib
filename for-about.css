@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+#logo{
+    display: inline-block;
+    margin-top: 5px;
+    width: 260px;
+}
+#schoolName{
+    margin-top: -1px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.link-cont{
+    float: right;
+    position: relative;
+    top: -75px;
+    margin-right: 100px;
+}
+#about{
+    background-color: rgba(78, 81, 81, 0.611);
+    border-radius: 10px;
+}
+.navBar{
+    padding: 8px;
+    font: 17px sans-serif;
+    text-decoration: none;
+    color: black;
+    float: right;
+    position: relative;
+    top: 13px;
+}
+.navBar:hover{
+    background-color: rgba(128, 128, 128, 0.301);
+    border-radius: 5px;
+}
+#for-sign-in{
+    text-decoration: none;
+    color: white;
+}
+#sign-in{
+    position: absolute;
+    color: white;
+    background-color:#3434c2b7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    top: 28px;
+    right: 30px;
+}
+#sign-in:hover{
+    background-color:#3434c283;
+}
+.others{
+    display: none;
+}
+#humberger{
+    display: none;
+    position: absolute;
+    top: 8px;
+    right: -70px;
+    width: 45px;
+    cursor: pointer;
+}
+#checkbox{
+    display: none;
+}
+.closesidebutton, .opensidebar{
+    display: none;
+}
+.txt{
+    
+    color:white;
+    margin-left: 7%;
+}
+.anchor{
+    text-decoration: none;
+    
+}
+#skul-ngayon{
+    width: 60%;
+}
+#mahaba{
+    color: white;
+}
+.all-floor{
+    margin-left: 5%;
+    width: 110%;
+    border: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.blueprint{
+    width: 40%;
+    border-radius: 15px;
+}
+#Principal{
+    width: 70%;
+    border-radius: 15px;
+}
+
+
+
+@media (max-width:600px) {
+
+    #logo{
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: -30px;
+        width: 220px;
+    }
+    .link-cont{
+        display: none;
+        z-index: 10;
+        top: -6px;
+        right:0;
+        margin-inline-end: auto;
+        text-align: center;
+        align-items: flex-start;
+        flex-direction:column;
+        background-color:#ccccdbb7;
+        height:300px;
+        width: 100%;
+        margin-bottom: -370px;
+    }
+    .others{
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        padding: 8px;
+        font: 17px sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+    .others:hover{
+        background-color: rgba(128, 128, 128, 0.301);
+        border-radius: 5px;
+    }
+    nav a{
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+    }
+    #sign-in{
+        display: inline-block;
+        width: 70px;
+        position: absolute;
+        color: white;
+        background-color:#3434c2b7;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+        top:28px;
+        right: 70px;
+    }
+    #humberger{
+        display: block;
+        position: absolute;
+        top: -28px;
+        right: 20px;
+        width: 45px;
+    }
+    .opensidebutton{
+        margin-top: 50px;
+        display: block;
+    }
+    .closesidebutton{
+        position: absolute;
+        right: 47%;
+        margin-top: 30px;
+        display: inline-block;
+    }
+    #checkbox:checked ~ .link-cont{
+        display: flex;
+    }
+    #skul-ngayon{
+        width: 90%;
+        
+    }
+   
+}

@@ -3,67 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="skulLogo.png">
-        <title>Appointment System</title>
+        <link rel="icon" href="school logo.png">
+        <link rel="stylesheet" href="For_contact.css">
+        <title>DepEd Tayo Blue Rizal - San Jose Litex Senior High School</title>
     </head>
-    <style>
-        body{
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        input{
-            height: 40px;
-            border: 1px solid grey;
-            border-radius: 7px;
-            padding-left: 5px;
-            width: 80%;
-        }
-        textarea{
-            border-radius: 7px;
-            width: 80%;
-        }
-        #submit{
-            border: none;
-            width: 30%;
-            background-color: red;
-            color: whitesmoke;
-            transition: 1s;
-        }
-        #submit:hover{
-            background-color: whitesmoke;
-            color: red;
-        }
-        #reset{
-            border: none;
-            width: 15%;
-            background-color: red;
-            color: whitesmoke;
-        }
-        #formtable{
-            background-color: rgba(78, 27, 120, 0.381);
-            border-radius: 10px;
-        }
-        h1{
-            color: white;
-        }
-    </style>
     <body background="contact-bg1.jpg">
         <font face="cursive">
-            <table width="100%"  height="50" bgcolor="#9de3d3" cellspacing="4" style="border-radius: 5px;">
-                <tr bgcolor="white" align="center">
-                    <td class="td" bgcolor="white">
-                        <table width="100%"  height="50" bgcolor="white">
-                            <tr bgcolor="white" align="center">
-                                <td class="td" bgcolor="white"><img src="skulLogo.png" alt="logo" width="60"></td>
-                                <td class="td" align="center"><h2>School Appointment Form</h2></td>
-                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
+            <nav>
+                <div>
+                    <a href="Main-page.html"><img id="logo" src="logodin.png" alt="logo" width="40px"></a>
+                </div>
+                <input type="checkbox" id="checkbox">
+                <a id="for-sign-in" href=""><button id="sign-in">Sign In</button></a>
+                <label for="checkbox">
+                    <img id="humberger" src="humberger.png" class="opensidebutton">
+                </label>
+                <div class="link-cont">
+                    <a class="navBar" id="contact" href="Contact.html">Contact</a>
+                    <a class="navBar" id="about" href="About.html">About</a>
+                    <a class="navBar" id="home" href="Main-page.html">Home</a>
+                    <a class="others" id="" href="">About</a>
+                    <a class="others" id="" href="">Home</a>
+                    <label for="checkbox">
+                        <img src="Close.png" width="35px" class="closesidebutton">
+                    </label>
+                </div>
+            </nav>
         </font>
         <br><br><br><br>
         <font face="sans-serif" color="grey">
@@ -101,9 +66,20 @@
                       </td>
                   </tr>
               </table>
-          </font>
-          <br><br>
+              <br>
+          <center><a href="Main-page.html"><img src="backicon.png" width="7%"></a></center></font>
+          <br>
+          <footer>
+            <h4 class="skul-email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMAIL US<br>
+                342566@deped.gov.ph 
+            </h4>
+            <h4 class="contactNum">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CALL US<br>
+                +63-5-9662-8009
+            </h4>
+            <br>
+            <a href="https://maps.app.goo.gl/zteczPKq33KYBgB78" target="_blank"><img id="mapa" src="maps.png"></a>
+          </footer>
 
-        <center><font color="white"><a href="Main-page.html"><h1>back</h1></a></center></font>
+        
     </body>
 </html>

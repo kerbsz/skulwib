@@ -22,6 +22,10 @@ nav{
     top: -75px;
     margin-right: 100px;
 }
+#home{
+    background-color: rgba(78, 81, 81, 0.611);
+    border-radius: 10px;
+}
 .navBar{
     padding: 8px;
     font: 17px sans-serif;
@@ -100,15 +104,18 @@ main #bg-1{
     cursor: pointer;
     background-color: rgba(134, 212, 234, 0.496);
 }
-.presscon{
+.NEWS{
     width: 20%;
     border-radius: 5%;
     transition: 0.5s;
 }
-.presscon:hover{
+.NEWS:hover{
     width: 20%;
     scale: 1.1;
     border-radius: 5%;
+}
+#NEWS-2{
+    width: 28%;
 }
 #slider{
     opacity: 3;
@@ -199,9 +206,12 @@ main #bg-1{
         position:relative;
         opacity: 0.5;
     }
-    .presscon{
+    .NEWS{
         margin-top: 50px;
         width: 30%;
         border-radius: 5%;
+    }
+    #NEWS-2{
+        width: 38%;
     }
 }
