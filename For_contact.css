@@ -28,7 +28,7 @@ nav{
     margin-right: 100px;
 }
 #contact{
-    background-color: rgba(78, 81, 81, 0.611);
+    background-color: rgba(209, 201, 201, 0.89);
     border-radius: 10px;
 }
 .navBar{
@@ -79,7 +79,7 @@ nav{
 .closesidebutton, .opensidebar{
     display: none;
 }
-@media (max-width:600px) {
+@media (max-width:700px) {
 
     #logo{
         display: inline-block;
@@ -90,7 +90,7 @@ nav{
     .link-cont{
         display: none;
         z-index: 10;
-        top: -6px;
+        top: -12px;
         right:0;
         margin-inline-end: auto;
         text-align: center;
@@ -156,11 +156,28 @@ nav{
     }
     #mapa{
     position: absolute;
-    margin-top: 10%;
-    left: -27%;
+    border-radius: 15px;
+    margin-top: 70px;
+    width: 70%;
+    left: -90px;
     height: 100px;
     }
+    .skul-email{
+        position: absolute;
+        margin-top: 20px;
+        left: -45px;
+    }
+    .contactNum{
+        position: absolute;
+        margin-top: 20px;
+        left: -50px;
+        color:rgb(255, 255, 255);
+    }
+    #reser{
+        width: 16%;
+    }
 }
+
 input{
     height: 40px;
     border: 1px solid grey;
@@ -198,9 +215,10 @@ h1{
 }
 footer{
     background-color: hsla(232, 95%, 68%, 0.797);
-    margin-bottom: -10px;
+    position:static;
+    bottom: 0;
     margin-left: -20px;
-    width: 110%;
+    width: 104;
     height: 200px;
 }
 .skul-email{
@@ -217,5 +235,6 @@ footer{
 }
 #mapa{
     margin-left: 33%;
+    border-radius: 20px;
     height: 100px;
 }
