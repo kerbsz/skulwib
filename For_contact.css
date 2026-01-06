@@ -207,8 +207,9 @@ textarea{
     color: whitesmoke;
 }
 #formtable{
-    background-color: rgba(78, 27, 120, 0.381);
+    background-color: rgba(7, 116, 249, 0.934);
     border-radius: 10px;
+    opacity: 0.8;
 }
 h1{
     color: white;
